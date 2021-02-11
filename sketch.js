@@ -21,7 +21,7 @@ function preload(){
 function setup() {
   createCanvas(500,500);
   
-  bground=createSprite(200,200);
+  bground=createSprite(200,200,400,400);
   bground.shapeColor="cyan";
   bground.velocityX=3;
   bground.addImage("jungle",bgimage);
