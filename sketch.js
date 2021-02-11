@@ -19,7 +19,7 @@ function preload(){
 
 
 function setup() {
-  createCanvas(device.width,device.height);
+  createCanvas(device.height,device.width);
   
   bground=createSprite(200,200,400,400);
   bground.shapeColor="cyan";
